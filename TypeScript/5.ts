@@ -14,7 +14,7 @@ export const fakeBin = (x: string): string => {
     }
   }
 
-  return finalString.join('');
+  return finalString.join("");
 };
 
 console.log(fakeBin("45385593107843568")); // 01011110001100111
