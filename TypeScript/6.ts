@@ -29,10 +29,8 @@
 
 // -231 <= x <= 231 - 1
 
-function isPalindrome(x: number): string {
-    let numberString = String(x);
-
-    return numberString
+export function isPalindrome(x: number): boolean {
+    return String(x) === String(x).split('').reverse().join('');
 };
 
-console.log(isPalindrome(121));
+console.log(isPalindrome(10));

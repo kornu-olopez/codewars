@@ -17,7 +17,7 @@ export function isTriangle(a: number, b: number, c: number): boolean {
   const orderNumbers: number[] = [a, b, c].sort(
     (a: number, b: number) => a - b
   );
-  console.log(orderNumbers);
+
   return orderNumbers[0] + orderNumbers[1] > orderNumbers[2];
 }
 
